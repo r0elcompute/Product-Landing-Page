@@ -1,0 +1,21 @@
+/* This is the media-queries file responsible for making the website respnsive to different screen sizes*/
+@media (max-width: 854px) {
+    #home #navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    #home #navbar #logo {
+        font-size: 12px;
+    }
+    #navbar ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    #navbar ul li a {
+        font-size: 10px;
+
+    }
+}
