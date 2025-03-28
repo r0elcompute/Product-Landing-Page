@@ -1,0 +1,10 @@
+/* The footer*/
+#footer {
+    background-color: #1F2937;
+    margin-top: 80px;
+    height: 80px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

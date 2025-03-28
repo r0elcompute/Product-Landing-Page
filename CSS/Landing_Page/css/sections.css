@@ -1,0 +1,134 @@
+/* This file styles different sections of the html file*/
+#hero-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#hero-main-text {
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+#hero-section #image-container {
+    width: 500px;
+    height: 200px;
+    background-color: grey;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-10px, -10px);
+}
+
+#hero-section button {
+    background-color: #3882F6;
+    outline: none;
+    border-radius: 7px;
+    width: 100px;
+    font-size: 15px;
+    color: #fff;
+}
+
+#hero-section button:hover {
+    cursor: pointer;
+}
+
+#home div {
+    padding-bottom: 40px;
+}
+
+#quote {
+    margin-top: 70px;
+}
+
+#lower-part #random-information {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 90px;
+}
+
+#lower-part h2{
+    text-align: center;
+    color: #222;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#random-information .box {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #00b4d8;
+    border-radius: 10px;
+}
+
+#quote {
+    background-color: #E5E7ED;
+    width: 100%;
+    height: 300px; 
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+#quote div {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    transform: translate(300px, 0);
+}
+
+#quote div span {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 400px;
+
+}
+
+#CTA {
+    background-color: #3882F6;
+    border-radius: 10px;
+    width: 80vw;
+    margin-left: 80px;
+    margin-right: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+#CTA div h3 {
+    font-size: 30px;
+    color: #fff;
+    margin-left: 50px;
+}
+
+#CTA div p {
+    color: #fff;
+    margin-left: 50px;
+}
+
+#CTA div button {
+    outline: none;
+    border-color: #fff;
+    color: #fff;
+    background-color: #3882F6;
+    width: 100px;
+    font-size: 20px;
+    transform: translate(800px, -60px);
+}
+

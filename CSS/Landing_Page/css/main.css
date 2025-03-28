@@ -1,0 +1,14 @@
+/* This file resets the html default styling */
+@import url('https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sigmar&display=swap');
+body {
+    margin: 0;
+    font-family: Roboto;
+    overflow-x: hidden;
+}
+
+#home {
+    background-color: #1F2937;
+    color: #fff;
+    margin-bottom: 70px;
+}
+

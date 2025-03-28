@@ -1,0 +1,28 @@
+ /* The header */
+
+ #navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+ }
+
+#navbar #logo {
+    font-weight: bold;
+    font-size: 20px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+#navbar ul {
+    list-style: none;
+}
+
+#navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
