@@ -1,4 +1,3 @@
-#The-Odin-Project
+Product Landing Page
 
-This is a repository containing the actual projects from The Odin Project
-You can refer to them as projects and not exercises unlike other repositories named beginning with The-Odin-Project
+This is a product landing page built emtirely using The Odin Project instruxtions, it is not responsive for now, but I will update it later on :)
